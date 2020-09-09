@@ -4,17 +4,18 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Supermercado</title>
 </head>
 <body class="bg-dark">
 
 <header>
 <nav class="navbar navbar-expand-lg  navbar-light bg-light fixed-top">
 
-<img src="img/cow.png" width="30" height="30" alt="imgicono" loading="lazy">
-            <h1 class="navbar-menu"></h1>Supermercados la vaquita SA</h1>
+
             <a class="navbar-brand" href="index.php">
-                
+            <img src="img/cow.png" width="30" height="30" alt="imgicono" loading="lazy">
+            Supermercados la vaquita SA
+            
               </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -39,36 +40,59 @@
           </nav>
 </header>
 
-<main>
-    <br>
+<main class= "text-white">
     <br>
     <br>
 
 <div class="conteiner">
-    <div class="row justify-content-center ">
+    <div class="row justify-content-center mt-5">
         <div class="col-4 ">
-            <form action="">
-                <label for="producto1">producto1</label>
-                <input type="text" class="form-control" id="producto1">
-
-                <label for="producto2">producto2</label>
-                <input type="text" class="form-control" id="producto2">
-
-                <label for="producto3">producto3</label>
-                <input type="text" class="form-control" id="producto3">
-
-                <label for="producto4">producto4</label>
-                <input type="text" class="form-control" id="producto4">
-
-                <label for="producto5">producto5</label>
-                <input type="text" class="form-control" id="producto5">
-                <br>
-
-                <button type="submit" class="btn btn-primary btn-block">calcular</button>
-                
-            </form>
-
-        </div>
+        <h3> Factura compra</h3>
+        <form>
+           <div class="row mt-2 ">
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="producto 1">
+               </div>
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="precio($)">
+             </div>
+           </div>
+           <div class="row mt-2">
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="producto 2">
+               </div>
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="precio($)">
+             </div>
+           </div>
+           <div class="row mt-2">
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="producto 3">
+               </div>
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="precio($)">
+             </div>
+           </div>
+           <div class="row mt-2">
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="producto 4">
+               </div>
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="precio($)">
+             </div>
+           </div>
+           <div class="row mt-2">
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="producto 5">
+               </div>
+             <div class="col">
+                 <input type="text" class="form-control" placeholder="precio($)">
+             </div>
+           </div>
+           <button type="submit" class="btn btn-primary btn-block mt-2">calcular</button>
+         </form> 
+ 
+     </div>
 
     </div>
 
