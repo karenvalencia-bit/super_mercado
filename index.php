@@ -64,13 +64,51 @@
   </a>
 </div>
      
-        <div class="container fondoc" >
+        <div class="container bg-secondary" >
         
         <div class="row">
           <div class="col strow">
             <h1>BIENVENIDO a la tienda virtual.....</h1>
           <p >en esta pagina encontraras productos de la tienda</p>
           </div>
+        </div>
+
+        <div class="row fondo">
+        <div class="col-12 col-md-6  ">
+        <h2>todos los viernes del mes son locos...</h2>
+        <img src="img/oferta.png" alt="img1" class="img-fluid">
+        <br>
+        <br>
+        </div>
+        <div class="col-12 col-md-6 fondo2 ">
+          <p class="texto1 mt-3">aprovecha las grandes ofertas que se vienen</p>
+          <p>para regalar el dia de la amistad, hay anchetas desde 10.000 hasta 100.000,
+            los regalos que pase de 100.000 tendran un descuento especial porque siempre 
+            pensamos en el cliente. </p>
+            <p> estan tambien las ceverzas : coronitas, pilsen, aguila, garrafas de aguardiente, por la 
+          compra de dos garrafas se lleva la tercera gratis  </p>
+          <p>se veran muchos descuentos, no te quedes sin el tuyo, ademas puede hacer su compra 
+            por via virtual, no tiene que salir de casa, todo se lo llevamos en muy buen estado
+          </p>
+          <img class="imgg" src="img/cerveza.png" alt="img2">
+          <img class="imgg img-responsive" src="img/amor.png" alt="img3">
+
+          
+          
+
+        </div>
+        </div>
+        <h1  class="titulo mt-4">CONOZCA NUESTROS PRODUCTOS</h1>
+        <div class="row">
+          <div class="col-12 col-md-4">
+
+
+          </div>
+
+        
+        
+       
+
         </div>
 
 
@@ -172,7 +210,7 @@
 
 
 
-</div class="row mt-4">
+
 
 
 

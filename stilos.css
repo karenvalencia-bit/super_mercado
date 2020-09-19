@@ -2,3 +2,25 @@
     margin-left: 50px;
     text-align: center;
 }
+h2{
+    color: black;
+}
+.texto1{
+    color: rgb(250, 245, 245);
+    text-align: center;
+}
+.fondo{
+    background-color: rgb(224, 152, 111);
+}
+.fondo2{
+    background-color: rgb(255, 2, 2);
+}
+.imgg{
+    width: 90px;
+    height: 90px;
+
+}
+.titulo{
+    text-align: center;
+    color: darkblue;
+}
